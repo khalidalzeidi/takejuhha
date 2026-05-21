@@ -10,9 +10,8 @@
   >
     <div class="container-custom flex items-center justify-between">
       <!-- Logo -->
-      <RouterLink to="/" class="flex items-center gap-2 group">
-        <span class="text-2xl font-black gradient-text tracking-wide">جُحة</span>
-        <span class="text-white/40 text-xs font-light hidden sm:block">TAKE JUHHA</span>
+      <RouterLink to="/" class="flex items-center group">
+        <img src="/logo.png" alt="Take Juhha" class="h-10 w-auto object-contain" />
       </RouterLink>
 
       <!-- Desktop Nav -->

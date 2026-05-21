@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         <!-- Brand -->
         <div class="lg:col-span-2">
-          <h3 class="text-3xl font-black gradient-text mb-4">جُحة</h3>
+          <img src="/logo.png" alt="Take Juhha" class="h-12 w-auto object-contain mb-4" />
           <p class="text-white/50 leading-relaxed mb-6 max-w-xs">
             وكالة إبداعية متخصصة في صياغة تجارب تسويقية خالدة تربط علامتك بجمهورها بعمق.
           </p>

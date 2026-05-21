@@ -7,7 +7,7 @@
     >
       <!-- Close button -->
       <div class="flex items-center justify-between px-6 pt-6 pb-8">
-        <span class="text-2xl font-bold gradient-text">جُحة</span>
+        <img src="/logo.png" alt="Take Juhha" class="h-9 w-auto object-contain" />
         <button
           @click="emit('close')"
           class="w-10 h-10 flex items-center justify-center rounded-full glass text-white hover:bg-white/10 transition-colors"
