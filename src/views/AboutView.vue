@@ -16,6 +16,7 @@
     <VisionMission />
     <ValuesGrid />
     <OurStory />
+    <CompanyProfile />
 
     <!-- CTA -->
     <section class="section-padding bg-surface">
@@ -35,4 +36,5 @@ import ScrollReveal from '@/components/ui/ScrollReveal.vue'
 import VisionMission from '@/components/about/VisionMission.vue'
 import ValuesGrid from '@/components/about/ValuesGrid.vue'
 import OurStory from '@/components/about/OurStory.vue'
+import CompanyProfile from '@/components/about/CompanyProfile.vue'
 </script>
