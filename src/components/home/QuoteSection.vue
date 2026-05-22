@@ -1,12 +1,12 @@
 <template>
   <section class="py-28 bg-dark relative overflow-hidden">
     <!-- Decorative elements -->
-    <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
-    <div class="absolute bottom-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-secondary/30 to-transparent" />
+    <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
+    <div class="absolute bottom-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
 
     <div
-      class="absolute start-8 top-1/2 -translate-y-1/2 text-primary/10 font-black pointer-events-none select-none"
-      style="font-size: 20rem; line-height: 1"
+      class="absolute start-8 top-1/2 -translate-y-1/2 font-black pointer-events-none select-none"
+      style="font-size: 20rem; line-height: 1; color: rgba(209, 175, 61, 0.08)"
     >
       "
     </div>
@@ -18,9 +18,9 @@
             "تكون الإبداعية هي آخر ميزة غير عادلة يمكننا استخدامها قانونياً للتفوق على منافسينا"
           </p>
           <div class="flex items-center justify-center gap-3">
-            <div class="h-px w-16 bg-gradient-to-l from-primary to-transparent" />
-            <span class="text-primary font-semibold text-sm">جُحة — فلسفة الإبداع</span>
-            <div class="h-px w-16 bg-gradient-to-r from-primary to-transparent" />
+            <div class="h-px w-16" style="background: linear-gradient(to left, #D1AF3D, transparent)" />
+            <span class="text-gold font-semibold text-sm tracking-wider">جُحة — فلسفة الإبداع</span>
+            <div class="h-px w-16" style="background: linear-gradient(to right, #D1AF3D, transparent)" />
           </div>
         </div>
       </ScrollReveal>

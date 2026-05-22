@@ -19,6 +19,14 @@
       class="absolute top-1/2 left-1/2 w-64 h-64 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-10 animate-pulse-slow blur-3xl pointer-events-none"
       style="background: radial-gradient(circle, #BE315B, #451B88)"
     />
+    <div
+      class="absolute bottom-1/4 right-1/3 w-56 h-56 rounded-full opacity-10 animate-float blur-3xl pointer-events-none"
+      style="background: radial-gradient(circle, #D1AF3D, transparent)"
+    />
+    <div
+      class="absolute top-1/3 left-1/3 w-40 h-40 rounded-full opacity-8 animate-float-slow blur-2xl pointer-events-none"
+      style="background: radial-gradient(circle, #79D5A0, transparent)"
+    />
 
     <!-- Grid pattern overlay -->
     <div

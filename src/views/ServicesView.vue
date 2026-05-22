@@ -53,8 +53,13 @@
             :delay="i * 100"
           >
             <div class="text-center">
-              <div class="w-12 h-12 rounded-full mx-auto mb-4 flex items-center justify-center font-black text-lg text-white"
-                style="background: linear-gradient(135deg, #BE315B, #451B88)">
+              <div
+                class="w-12 h-12 rounded-full mx-auto mb-4 flex items-center justify-center font-black text-lg"
+                :class="i % 2 === 0 ? 'text-dark' : 'text-white'"
+                :style="i % 2 === 0
+                  ? 'background: linear-gradient(135deg, #D1AF3D, #f5d76e)'
+                  : 'background: linear-gradient(135deg, #BE315B, #451B88)'"
+              >
                 {{ i + 1 }}
               </div>
               <h4 class="font-bold text-white mb-2">{{ step.title }}</h4>

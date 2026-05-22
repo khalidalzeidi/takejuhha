@@ -26,8 +26,29 @@
   --color-secondary-800: #3a1773;
   --color-secondary-900: #301360;
 
-  --color-accent:  #79D5A0;
-  --color-gold:    #D1AF3D;
+  --color-accent:     #79D5A0;
+  --color-accent-50:  #f0fdf6;
+  --color-accent-100: #dcfce9;
+  --color-accent-200: #bbf7d4;
+  --color-accent-300: #79D5A0;
+  --color-accent-400: #4ade80;
+  --color-accent-500: #22c55e;
+  --color-accent-600: #16a34a;
+  --color-accent-700: #15803d;
+  --color-accent-800: #166534;
+  --color-accent-900: #14532d;
+
+  --color-gold:     #D1AF3D;
+  --color-gold-50:  #fefce8;
+  --color-gold-100: #fef9c3;
+  --color-gold-200: #fef08a;
+  --color-gold-300: #f5d76e;
+  --color-gold-400: #e8c44a;
+  --color-gold-500: #D1AF3D;
+  --color-gold-600: #b8920f;
+  --color-gold-700: #9a780a;
+  --color-gold-800: #7d6009;
+  --color-gold-900: #644c09;
 
   --color-dark:    #0a0a0f;
   --color-surface: #12121a;
@@ -40,6 +61,8 @@
   --background-image-gradient-brand:   linear-gradient(135deg, #451B88 0%, #BE315B 100%);
   --background-image-gradient-brand-r: linear-gradient(135deg, #BE315B 0%, #451B88 100%);
   --background-image-gradient-dark:    linear-gradient(180deg, #0a0a0f 0%, #12121a 100%);
+  --background-image-gradient-gold:    linear-gradient(135deg, #D1AF3D 0%, #f5d76e 100%);
+  --background-image-gradient-gold-r:  linear-gradient(135deg, #f5d76e 0%, #D1AF3D 100%);
 
   /* ── Animations ── */
   --animate-fade-up:    fadeUp 0.7s ease forwards;
@@ -105,7 +128,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #BE315B, #451B88);
+    background: linear-gradient(180deg, #D1AF3D, #BE315B, #451B88);
     border-radius: 9999px;
   }
 
@@ -155,6 +178,13 @@
     background-clip: text;
   }
 
+  .gradient-text-gold {
+    background: linear-gradient(135deg, #D1AF3D 0%, #f5d76e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
   .btn-primary {
     @apply inline-flex items-center gap-2 px-8 py-3 rounded-full font-semibold text-white transition-all duration-300;
     background: linear-gradient(135deg, #451B88, #BE315B);
@@ -175,6 +205,20 @@
   .btn-outline:hover {
     @apply border-primary bg-primary/10;
     transform: translateY(-2px);
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center gap-2 px-8 py-3 rounded-full font-semibold transition-all duration-300;
+    background: linear-gradient(135deg, #D1AF3D, #f5d76e);
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+    color: #0a0a0f;
+  }
+
+  .btn-gold:hover {
+    background-position: 100% 50%;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 40px rgba(209, 175, 61, 0.4);
   }
 
   .reveal {

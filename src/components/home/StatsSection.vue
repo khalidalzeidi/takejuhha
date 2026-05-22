@@ -4,9 +4,12 @@
     <div class="absolute inset-0" style="background: linear-gradient(135deg, #451B88 0%, #BE315B 100%)" />
     <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px" />
 
+    <!-- Gold shimmer overlay -->
+    <div class="absolute inset-0 opacity-5" style="background: radial-gradient(ellipse at 50% 100%, #D1AF3D, transparent 60%)" />
+
     <div class="relative z-10 container-custom">
       <ScrollReveal direction="up">
-        <p class="text-center text-white/70 text-sm tracking-widest uppercase mb-16">أرقام تحكي قصتنا</p>
+        <p class="text-center text-gold/80 text-sm tracking-widest uppercase mb-16 font-semibold">أرقام تحكي قصتنا</p>
       </ScrollReveal>
 
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -18,9 +21,10 @@
           :duration="700"
         >
           <div class="text-center">
-            <div class="text-5xl md:text-6xl font-black text-white mb-3">
+            <div class="text-5xl md:text-6xl font-black gradient-text-gold mb-3">
               <AnimatedCounter :target="stat.value" :suffix="stat.suffix" />
             </div>
+            <div class="h-px w-8 mx-auto mb-3" style="background: linear-gradient(90deg, transparent, #D1AF3D, transparent)" />
             <p class="text-white/70 font-medium">{{ stat.labelAr }}</p>
           </div>
         </ScrollReveal>

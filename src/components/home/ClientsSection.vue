@@ -7,6 +7,7 @@
           title="شركاء النجاح"
           subtitle="نفخر بثقة عملائنا المميزين في مسيرة الإبداع"
           align="center"
+          :gold="true"
         />
       </ScrollReveal>
     </div>
@@ -14,14 +15,25 @@
     <!-- Marquee row 1 -->
     <div class="relative overflow-hidden mb-4">
       <div class="flex gap-4 animate-marquee whitespace-nowrap">
-        <ClientPill v-for="client in [...clients, ...clients]" :key="`a-${client.id}-${Math.random()}`" :name="client.nameAr" />
+        <ClientPill
+          v-for="(client, i) in [...clients, ...clients]"
+          :key="`a-${client.id}-${i}`"
+          :name="client.nameAr"
+          :dot-gold="i % 2 === 0"
+        />
       </div>
     </div>
 
     <!-- Marquee row 2 (reverse) -->
     <div class="relative overflow-hidden">
       <div class="flex gap-4 animate-marquee-r whitespace-nowrap">
-        <ClientPill v-for="client in [...clients, ...clients]" :key="`b-${client.id}-${Math.random()}`" :name="client.nameAr" variant="outline" />
+        <ClientPill
+          v-for="(client, i) in [...clients, ...clients]"
+          :key="`b-${client.id}-${i}`"
+          :name="client.nameAr"
+          variant="outline"
+          :dot-gold="i % 2 !== 0"
+        />
       </div>
     </div>
   </section>
@@ -39,6 +51,7 @@ const ClientPill = defineComponent({
   props: {
     name: String,
     variant: { type: String, default: 'filled' },
+    dotGold: { type: Boolean, default: false },
   },
   setup(props) {
     return () =>
@@ -55,7 +68,9 @@ const ClientPill = defineComponent({
         [
           h('span', {
             class: 'w-2 h-2 rounded-full ms-0 me-2 shrink-0',
-            style: 'background: linear-gradient(135deg, #BE315B, #451B88)',
+            style: props.dotGold
+              ? 'background: linear-gradient(135deg, #D1AF3D, #f5d76e)'
+              : 'background: linear-gradient(135deg, #BE315B, #451B88)',
           }),
           props.name,
         ]

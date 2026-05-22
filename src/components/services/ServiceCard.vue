@@ -52,7 +52,7 @@
       <!-- Arrow (full variant) -->
       <div
         v-if="variant === 'full'"
-        class="mt-6 flex items-center gap-2 text-primary text-sm font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0"
+        class="mt-6 flex items-center gap-2 text-gold text-sm font-semibold opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0"
       >
         <span>اعرف أكثر</span>
         <span>←</span>

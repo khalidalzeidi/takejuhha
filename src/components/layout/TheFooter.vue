@@ -44,23 +44,23 @@
           <h4 class="text-white font-semibold mb-6">تواصل معنا</h4>
           <ul class="space-y-4">
             <li class="flex items-center gap-3 text-white/50 text-sm">
-              <Phone :size="16" class="text-primary shrink-0" />
-              <a href="tel:+96879976611" class="hover:text-white transition-colors" dir="ltr">+968 7997 6611</a>
+              <Phone :size="16" class="text-gold shrink-0" />
+              <a href="tel:+96879976611" class="hover:text-gold transition-colors" dir="ltr">+968 7997 6611</a>
             </li>
             <li class="flex items-center gap-3 text-white/50 text-sm">
-              <Mail :size="16" class="text-primary shrink-0" />
-              <a href="mailto:Info@takejuhha.com" class="hover:text-white transition-colors">Info@takejuhha.com</a>
+              <Mail :size="16" class="text-gold shrink-0" />
+              <a href="mailto:Info@takejuhha.com" class="hover:text-gold transition-colors">Info@takejuhha.com</a>
             </li>
             <li class="flex items-center gap-3 text-white/50 text-sm">
               <Instagram :size="16" class="text-primary shrink-0" />
-              <a href="https://instagram.com/takejuhha" target="_blank" rel="noopener" class="hover:text-white transition-colors">@takejuhha</a>
+              <a href="https://instagram.com/takejuhha" target="_blank" rel="noopener" class="hover:text-primary transition-colors">@takejuhha</a>
             </li>
           </ul>
         </div>
       </div>
 
       <!-- Divider -->
-      <div class="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent mb-8" />
+      <div class="h-px w-full mb-8" style="background: linear-gradient(to right, transparent, #D1AF3D 30%, #BE315B 70%, transparent)" />
 
       <!-- Bottom bar -->
       <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-white/30 text-sm">

@@ -30,15 +30,19 @@
               <!-- Icon -->
               <div
                 class="w-16 h-16 rounded-2xl mx-auto flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110"
-                :style="`background: linear-gradient(135deg, #BE315B, #451B88)`"
+                :style="i % 2 === 0
+                  ? 'background: linear-gradient(135deg, #D1AF3D, #f5d76e)'
+                  : 'background: linear-gradient(135deg, #BE315B, #451B88)'"
               >
-                <component :is="iconMap[val.icon]" :size="28" class="text-white" />
+                <component :is="iconMap[val.icon]" :size="28" :class="i % 2 === 0 ? 'text-dark' : 'text-white'" />
               </div>
 
               <!-- Arabic name -->
               <h3 class="text-2xl font-black text-white mb-1">{{ val.nameAr }}</h3>
               <!-- English name -->
-              <p class="text-primary text-xs font-semibold tracking-widest uppercase mb-4">{{ val.nameEn }}</p>
+              <p
+                :class="['text-xs font-semibold tracking-widest uppercase mb-4', i % 2 === 0 ? 'text-gold' : 'text-primary']"
+              >{{ val.nameEn }}</p>
               <!-- Description -->
               <p class="text-white/50 text-sm leading-relaxed">{{ val.descriptionAr }}</p>
             </div>
