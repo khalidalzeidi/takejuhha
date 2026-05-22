@@ -1,8 +1,8 @@
-<template>
+﻿<template>
   <div>
     <!-- Page hero -->
     <section class="relative pt-40 pb-20 overflow-hidden" style="background: linear-gradient(135deg, #0a0a0f 0%, #1a0a2e 50%, #0a0a0f 100%)">
-      <div class="absolute inset-0 opacity-10 pointer-events-none" style="background: radial-gradient(ellipse at 50% 50%, #D65769, transparent)" />
+      <div class="absolute inset-0 opacity-10 pointer-events-none" style="background: radial-gradient(ellipse at 50% 50%, #BE315B, transparent)" />
       <div class="container-custom text-center relative z-10">
         <ScrollReveal direction="up">
           <p class="text-primary text-sm font-semibold tracking-widest uppercase mb-4">نحن هنا لك</p>
@@ -41,7 +41,7 @@
     </section>
 
     <!-- CTA banner -->
-    <section class="py-24 relative overflow-hidden" style="background: linear-gradient(135deg, #4F1A6F, #D65769)">
+    <section class="py-24 relative overflow-hidden" style="background: linear-gradient(135deg, #451B88, #BE315B)">
       <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px" />
       <div class="container-custom text-center relative z-10">
         <ScrollReveal direction="up">

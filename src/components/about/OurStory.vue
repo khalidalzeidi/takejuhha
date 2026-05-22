@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <section class="section-padding bg-dark relative overflow-hidden">
     <div class="container-custom">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -35,7 +35,7 @@
                 :key="i"
                 class="absolute w-3 h-3 rounded-full"
                 :style="{
-                  background: `linear-gradient(135deg, #D65769, #4F1A6F)`,
+                  background: `linear-gradient(135deg, #BE315B, #451B88)`,
                   transform: `rotate(${i * 45}deg) translateX(140px) rotate(-${i * 45}deg)`,
                 }"
               />
@@ -43,12 +43,12 @@
 
             <!-- Inner colorful burst (inside) -->
             <div class="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-2xl" style="box-shadow: 0 0 80px rgba(214,87,105,0.4)">
-              <div class="absolute inset-0" style="background: linear-gradient(135deg, #4F1A6F 0%, #D65769 50%, #4F1A6F 100%)" />
+              <div class="absolute inset-0" style="background: linear-gradient(135deg, #451B88 0%, #BE315B 50%, #451B88 100%)" />
               <div class="absolute inset-0 flex items-center justify-center">
                 <span class="text-white text-5xl font-black">جُ</span>
               </div>
               <!-- Color petals -->
-              <div class="absolute inset-0 opacity-30" style="background: conic-gradient(from 0deg, #D65769, #4F1A6F, #D65769, #4F1A6F, #D65769)" />
+              <div class="absolute inset-0 opacity-30" style="background: conic-gradient(from 0deg, #BE315B, #451B88, #BE315B, #451B88, #BE315B)" />
             </div>
 
             <!-- Floating text labels -->

@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div>
     <!-- Filter tabs -->
     <div class="flex flex-wrap gap-3 justify-center mb-12">
@@ -12,7 +12,7 @@
             ? 'text-white shadow-lg'
             : 'glass text-white/60 hover:text-white',
         ]"
-        :style="activeCategory === cat.value ? 'background: linear-gradient(135deg, #D65769, #4F1A6F)' : ''"
+        :style="activeCategory === cat.value ? 'background: linear-gradient(135deg, #BE315B, #451B88)' : ''"
       >
         {{ cat.label }}
       </button>

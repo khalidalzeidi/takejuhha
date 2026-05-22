@@ -1,9 +1,9 @@
-<template>
+﻿<template>
   <section class="section-padding bg-dark relative overflow-hidden">
     <!-- Background accent -->
     <div
       class="absolute top-0 start-0 w-1/2 h-full opacity-5 pointer-events-none"
-      style="background: radial-gradient(ellipse at 0% 50%, #4F1A6F, transparent)"
+      style="background: radial-gradient(ellipse at 0% 50%, #451B88, transparent)"
     />
 
     <div class="container-custom">

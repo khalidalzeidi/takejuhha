@@ -2,29 +2,32 @@
 
 @theme {
   /* ── Brand colors ── */
-  --color-primary:     #D65769;
-  --color-primary-50:  #fdf2f4;
-  --color-primary-100: #fce7ea;
-  --color-primary-200: #f9d0d6;
-  --color-primary-300: #f4aab4;
-  --color-primary-400: #ec7887;
-  --color-primary-500: #D65769;
-  --color-primary-600: #c13d54;
-  --color-primary-700: #a22e45;
-  --color-primary-800: #88283d;
-  --color-primary-900: #752539;
+  --color-primary:     #BE315B;
+  --color-primary-50:  #fdf2f5;
+  --color-primary-100: #fce8ee;
+  --color-primary-200: #f9d0df;
+  --color-primary-300: #f4a8c3;
+  --color-primary-400: #eb739e;
+  --color-primary-500: #BE315B;
+  --color-primary-600: #a8284f;
+  --color-primary-700: #8d2043;
+  --color-primary-800: #771c3a;
+  --color-primary-900: #641832;
 
-  --color-secondary:     #4F1A6F;
-  --color-secondary-50:  #f5f0fa;
-  --color-secondary-100: #ede3f5;
-  --color-secondary-200: #dacaec;
-  --color-secondary-300: #bf9fdc;
-  --color-secondary-400: #9e6dc6;
-  --color-secondary-500: #7f4aad;
-  --color-secondary-600: #683692;
-  --color-secondary-700: #4F1A6F;
-  --color-secondary-800: #43185e;
-  --color-secondary-900: #38154f;
+  --color-secondary:     #451B88;
+  --color-secondary-50:  #f3f0fa;
+  --color-secondary-100: #e9e3f5;
+  --color-secondary-200: #d4c8ec;
+  --color-secondary-300: #b09fd7;
+  --color-secondary-400: #8a70be;
+  --color-secondary-500: #6b4da3;
+  --color-secondary-600: #563a8d;
+  --color-secondary-700: #451B88;
+  --color-secondary-800: #3a1773;
+  --color-secondary-900: #301360;
+
+  --color-accent:  #79D5A0;
+  --color-gold:    #D1AF3D;
 
   --color-dark:    #0a0a0f;
   --color-surface: #12121a;
@@ -34,8 +37,8 @@
   --font-cairo: 'Cairo', sans-serif;
 
   /* ── Background images (available as bg-gradient-brand etc.) ── */
-  --background-image-gradient-brand:   linear-gradient(135deg, #4F1A6F 0%, #D65769 100%);
-  --background-image-gradient-brand-r: linear-gradient(135deg, #D65769 0%, #4F1A6F 100%);
+  --background-image-gradient-brand:   linear-gradient(135deg, #451B88 0%, #BE315B 100%);
+  --background-image-gradient-brand-r: linear-gradient(135deg, #BE315B 0%, #451B88 100%);
   --background-image-gradient-dark:    linear-gradient(180deg, #0a0a0f 0%, #12121a 100%);
 
   /* ── Animations ── */
@@ -89,7 +92,7 @@
   }
 
   ::selection {
-    background-color: rgba(214, 87, 105, 0.3);
+    background-color: rgba(190, 49, 91, 0.3);
     color: white;
   }
 
@@ -102,7 +105,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #D65769, #4F1A6F);
+    background: linear-gradient(180deg, #BE315B, #451B88);
     border-radius: 9999px;
   }
 
@@ -139,14 +142,14 @@
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #D65769 0%, #4F1A6F 100%);
+    background: linear-gradient(135deg, #BE315B 0%, #451B88 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .gradient-text-r {
-    background: linear-gradient(135deg, #4F1A6F 0%, #D65769 100%);
+    background: linear-gradient(135deg, #451B88 0%, #BE315B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -154,7 +157,7 @@
 
   .btn-primary {
     @apply inline-flex items-center gap-2 px-8 py-3 rounded-full font-semibold text-white transition-all duration-300;
-    background: linear-gradient(135deg, #D65769, #4F1A6F);
+    background: linear-gradient(135deg, #451B88, #BE315B);
     background-size: 200% 200%;
     background-position: 0% 50%;
   }
@@ -162,7 +165,7 @@
   .btn-primary:hover {
     background-position: 100% 50%;
     transform: translateY(-2px);
-    box-shadow: 0 10px 40px rgba(214, 87, 105, 0.4);
+    box-shadow: 0 10px 40px rgba(190, 49, 91, 0.4);
   }
 
   .btn-outline {

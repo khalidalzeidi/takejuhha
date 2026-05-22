@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <ScrollReveal direction="left" :duration="900">
     <GlassCard :hover="false">
       <h3 class="text-2xl font-bold text-white mb-8">أرسل لنا رسالة</h3>
@@ -139,7 +139,7 @@ async function handleSubmit() {
 .fade-enter-active, .fade-leave-active { transition: opacity 0.4s ease; }
 .fade-enter-from, .fade-leave-to { opacity: 0; }
 input:focus, textarea:focus, select:focus {
-  border-color: #D65769;
+  border-color: #BE315B;
   box-shadow: 0 0 0 2px rgba(214, 87, 105, 0.2);
 }
 </style>

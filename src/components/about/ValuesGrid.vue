@@ -1,6 +1,6 @@
-<template>
+﻿<template>
   <section class="section-padding bg-surface relative overflow-hidden">
-    <div class="absolute inset-0 opacity-5 pointer-events-none" style="background: radial-gradient(ellipse at 50% 100%, #D65769, transparent 60%)" />
+    <div class="absolute inset-0 opacity-5 pointer-events-none" style="background: radial-gradient(ellipse at 50% 100%, #BE315B, transparent 60%)" />
 
     <div class="container-custom">
       <ScrollReveal direction="up">
@@ -30,7 +30,7 @@
               <!-- Icon -->
               <div
                 class="w-16 h-16 rounded-2xl mx-auto flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110"
-                :style="`background: linear-gradient(135deg, #D65769, #4F1A6F)`"
+                :style="`background: linear-gradient(135deg, #BE315B, #451B88)`"
               >
                 <component :is="iconMap[val.icon]" :size="28" class="text-white" />
               </div>

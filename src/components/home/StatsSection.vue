@@ -1,7 +1,7 @@
-<template>
+﻿<template>
   <section class="py-24 relative overflow-hidden">
     <!-- Gradient background -->
-    <div class="absolute inset-0" style="background: linear-gradient(135deg, #4F1A6F 0%, #D65769 100%)" />
+    <div class="absolute inset-0" style="background: linear-gradient(135deg, #451B88 0%, #BE315B 100%)" />
     <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px" />
 
     <div class="relative z-10 container-custom">

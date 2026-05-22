@@ -1,9 +1,9 @@
-<template>
+﻿<template>
   <Transition name="mobile-menu">
     <div
       v-if="isOpen"
       class="fixed inset-0 z-40 flex flex-col"
-      style="background: linear-gradient(135deg, #0a0a0f 0%, #4F1A6F 60%, #D65769 100%)"
+      style="background: linear-gradient(135deg, #0a0a0f 0%, #451B88 60%, #BE315B 100%)"
     >
       <!-- Close button -->
       <div class="flex items-center justify-between px-6 pt-6 pb-8">

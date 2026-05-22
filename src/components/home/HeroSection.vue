@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
     <!-- Gradient background -->
     <div
@@ -9,15 +9,15 @@
     <!-- Animated orbs -->
     <div
       class="absolute top-1/4 right-1/4 w-96 h-96 rounded-full opacity-20 animate-float blur-3xl pointer-events-none"
-      style="background: radial-gradient(circle, #4F1A6F, transparent)"
+      style="background: radial-gradient(circle, #451B88, transparent)"
     />
     <div
       class="absolute bottom-1/3 left-1/4 w-72 h-72 rounded-full opacity-15 animate-float-slow blur-3xl pointer-events-none"
-      style="background: radial-gradient(circle, #D65769, transparent)"
+      style="background: radial-gradient(circle, #BE315B, transparent)"
     />
     <div
       class="absolute top-1/2 left-1/2 w-64 h-64 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-10 animate-pulse-slow blur-3xl pointer-events-none"
-      style="background: radial-gradient(circle, #D65769, #4F1A6F)"
+      style="background: radial-gradient(circle, #BE315B, #451B88)"
     />
 
     <!-- Grid pattern overlay -->

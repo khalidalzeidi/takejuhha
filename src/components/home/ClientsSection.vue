@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <section class="py-20 bg-surface overflow-hidden">
     <div class="container-custom mb-10">
       <ScrollReveal direction="up">
@@ -55,7 +55,7 @@ const ClientPill = defineComponent({
         [
           h('span', {
             class: 'w-2 h-2 rounded-full ms-0 me-2 shrink-0',
-            style: 'background: linear-gradient(135deg, #D65769, #4F1A6F)',
+            style: 'background: linear-gradient(135deg, #BE315B, #451B88)',
           }),
           props.name,
         ]

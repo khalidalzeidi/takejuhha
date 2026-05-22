@@ -1,9 +1,9 @@
-<template>
+﻿<template>
   <section class="section-padding bg-dark relative overflow-hidden">
     <!-- Background glow -->
     <div
       class="absolute top-1/2 start-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] opacity-10 blur-3xl rounded-full pointer-events-none"
-      style="background: linear-gradient(135deg, #4F1A6F, #D65769)"
+      style="background: linear-gradient(135deg, #451B88, #BE315B)"
     />
 
     <div class="relative z-10 container-custom">
@@ -13,7 +13,7 @@
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 text-white">
             تعرّف على <span class="gradient-text">جُحة بالكامل</span>
           </h2>
-          <div class="h-1 w-16 rounded-full mb-6 mx-auto" style="background: linear-gradient(90deg, #D65769, #4F1A6F)" />
+          <div class="h-1 w-16 rounded-full mb-6 mx-auto" style="background: linear-gradient(90deg, #BE315B, #451B88)" />
           <p class="text-white/60 text-lg max-w-2xl leading-relaxed mx-auto">
             حمّل ملف الشركة للاطلاع على خدماتنا وأعمالنا وقصتنا بالتفصيل
           </p>
@@ -25,7 +25,7 @@
 
           <!-- PDF Icon Visual -->
           <div class="shrink-0 flex flex-col items-center gap-3">
-            <div class="w-32 h-40 rounded-2xl flex flex-col items-center justify-center relative" style="background: linear-gradient(135deg, #4F1A6F, #D65769)">
+            <div class="w-32 h-40 rounded-2xl flex flex-col items-center justify-center relative" style="background: linear-gradient(135deg, #451B88, #BE315B)">
               <FileText :size="48" class="text-white" />
               <span class="absolute bottom-3 text-white/80 text-xs font-bold tracking-widest">PDF</span>
               <!-- Folded corner -->

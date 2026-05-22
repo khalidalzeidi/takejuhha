@@ -1,7 +1,7 @@
-<template>
+﻿<template>
   <section class="section-padding bg-dark relative overflow-hidden">
     <!-- Background -->
-    <div class="absolute inset-0 opacity-5 pointer-events-none" style="background: radial-gradient(ellipse at 50% 0%, #4F1A6F, transparent 70%)" />
+    <div class="absolute inset-0 opacity-5 pointer-events-none" style="background: radial-gradient(ellipse at 50% 0%, #451B88, transparent 70%)" />
 
     <div class="container-custom">
       <ScrollReveal direction="up">
@@ -18,9 +18,9 @@
         <ScrollReveal direction="right" :duration="900">
           <GlassCard :hover="false" class="h-full relative overflow-hidden group">
             <div class="absolute top-0 end-0 w-32 h-32 opacity-10 rounded-full blur-2xl transition-opacity duration-500 group-hover:opacity-20"
-              style="background: linear-gradient(135deg, #D65769, #4F1A6F)" />
+              style="background: linear-gradient(135deg, #BE315B, #451B88)" />
             <div class="relative z-10">
-              <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-6" style="background: linear-gradient(135deg, #D65769, #4F1A6F)">
+              <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-6" style="background: linear-gradient(135deg, #BE315B, #451B88)">
                 <Eye :size="22" class="text-white" />
               </div>
               <h3 class="text-2xl font-bold text-white mb-4">رؤيتنا</h3>
@@ -38,9 +38,9 @@
         <ScrollReveal direction="left" :duration="900">
           <GlassCard :hover="false" class="h-full relative overflow-hidden group">
             <div class="absolute top-0 start-0 w-32 h-32 opacity-10 rounded-full blur-2xl transition-opacity duration-500 group-hover:opacity-20"
-              style="background: linear-gradient(135deg, #4F1A6F, #D65769)" />
+              style="background: linear-gradient(135deg, #451B88, #BE315B)" />
             <div class="relative z-10">
-              <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-6" style="background: linear-gradient(135deg, #4F1A6F, #D65769)">
+              <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-6" style="background: linear-gradient(135deg, #451B88, #BE315B)">
                 <Target :size="22" class="text-white" />
               </div>
               <h3 class="text-2xl font-bold text-white mb-4">مهمتنا</h3>

@@ -1,8 +1,8 @@
-<template>
+﻿<template>
   <div>
     <!-- Page hero -->
     <section class="relative pt-40 pb-20 overflow-hidden" style="background: linear-gradient(135deg, #0a0a0f 0%, #1a0a2e 50%, #0a0a0f 100%)">
-      <div class="absolute inset-0 opacity-10 pointer-events-none" style="background: radial-gradient(ellipse at 50% 50%, #D65769, transparent)" />
+      <div class="absolute inset-0 opacity-10 pointer-events-none" style="background: radial-gradient(ellipse at 50% 50%, #BE315B, transparent)" />
       <div class="container-custom text-center relative z-10">
         <ScrollReveal direction="up">
           <p class="text-primary text-sm font-semibold tracking-widest uppercase mb-4">ما نقدمه لك</p>
@@ -54,7 +54,7 @@
           >
             <div class="text-center">
               <div class="w-12 h-12 rounded-full mx-auto mb-4 flex items-center justify-center font-black text-lg text-white"
-                style="background: linear-gradient(135deg, #D65769, #4F1A6F)">
+                style="background: linear-gradient(135deg, #BE315B, #451B88)">
                 {{ i + 1 }}
               </div>
               <h4 class="font-bold text-white mb-2">{{ step.title }}</h4>
@@ -66,7 +66,7 @@
     </section>
 
     <!-- CTA -->
-    <section class="py-24 relative overflow-hidden" style="background: linear-gradient(135deg, #4F1A6F, #D65769)">
+    <section class="py-24 relative overflow-hidden" style="background: linear-gradient(135deg, #451B88, #BE315B)">
       <div class="container-custom text-center">
         <ScrollReveal direction="up">
           <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">هل أنت مستعد لتطوير علامتك؟</h2>

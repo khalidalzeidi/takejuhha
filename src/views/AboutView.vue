@@ -1,8 +1,8 @@
-<template>
+﻿<template>
   <div>
     <!-- Page hero -->
     <section class="relative pt-40 pb-20 overflow-hidden" style="background: linear-gradient(135deg, #0a0a0f 0%, #1a0a2e 50%, #0a0a0f 100%)">
-      <div class="absolute inset-0 opacity-10 pointer-events-none" style="background: radial-gradient(ellipse at 50% 50%, #4F1A6F, transparent)" />
+      <div class="absolute inset-0 opacity-10 pointer-events-none" style="background: radial-gradient(ellipse at 50% 50%, #451B88, transparent)" />
       <div class="container-custom text-center relative z-10">
         <ScrollReveal direction="up">
           <p class="text-primary text-sm font-semibold tracking-widest uppercase mb-4">اكتشف من نحن</p>

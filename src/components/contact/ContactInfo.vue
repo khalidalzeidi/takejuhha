@@ -1,9 +1,9 @@
-<template>
+﻿<template>
   <div class="space-y-6">
     <ScrollReveal direction="right" :duration="800">
       <GlassCard :hover="true">
         <div class="flex items-center gap-4">
-          <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style="background: linear-gradient(135deg, #D65769, #4F1A6F)">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style="background: linear-gradient(135deg, #BE315B, #451B88)">
             <Phone :size="20" class="text-white" />
           </div>
           <div>
@@ -19,7 +19,7 @@
     <ScrollReveal direction="right" :delay="100" :duration="800">
       <GlassCard :hover="true">
         <div class="flex items-center gap-4">
-          <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style="background: linear-gradient(135deg, #4F1A6F, #D65769)">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style="background: linear-gradient(135deg, #451B88, #BE315B)">
             <Mail :size="20" class="text-white" />
           </div>
           <div>
@@ -35,7 +35,7 @@
     <ScrollReveal direction="right" :delay="200" :duration="800">
       <GlassCard :hover="true">
         <div class="flex items-center gap-4">
-          <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style="background: linear-gradient(135deg, #D65769, #4F1A6F)">
+          <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style="background: linear-gradient(135deg, #BE315B, #451B88)">
             <Instagram :size="20" class="text-white" />
           </div>
           <div>

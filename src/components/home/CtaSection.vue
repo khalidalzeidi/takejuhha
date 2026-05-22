@@ -1,10 +1,10 @@
-<template>
+﻿<template>
   <section class="py-32 relative overflow-hidden">
     <!-- Background -->
     <div class="absolute inset-0" style="background: linear-gradient(135deg, #1a0a2e 0%, #2d1040 50%, #1a0a1a 100%)" />
     <div
       class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] opacity-20 blur-3xl rounded-full pointer-events-none"
-      style="background: linear-gradient(135deg, #4F1A6F, #D65769)"
+      style="background: linear-gradient(135deg, #451B88, #BE315B)"
     />
 
     <div class="relative z-10 container-custom text-center">

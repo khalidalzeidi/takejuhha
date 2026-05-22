@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div
     :class="[
       'group relative rounded-2xl transition-all duration-500 overflow-hidden cursor-pointer',
@@ -14,7 +14,7 @@
       ref="gradientOverlay"
     />
     <div class="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500 rounded-2xl"
-      :style="`background: linear-gradient(135deg, #D65769, #4F1A6F)`"
+      :style="`background: linear-gradient(135deg, #BE315B, #451B88)`"
     />
 
     <!-- Content -->
@@ -25,7 +25,7 @@
           'rounded-xl flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110',
           variant === 'full' ? 'w-14 h-14' : 'w-12 h-12',
         ]"
-        :style="`background: linear-gradient(135deg, #D65769, #4F1A6F)`"
+        :style="`background: linear-gradient(135deg, #BE315B, #451B88)`"
       >
         <component
           :is="iconComponent"
