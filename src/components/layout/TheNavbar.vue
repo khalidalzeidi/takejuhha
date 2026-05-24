@@ -11,7 +11,7 @@
     <div class="container-custom flex items-center justify-between">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center group">
-        <img src="/logo.png" alt="Take Juhha" class="h-10 w-auto object-contain" />
+        <img src="/logo.png" alt="Take Juhha" class="h-10 w-auto object-contain transition-opacity duration-300 group-hover:opacity-80" />
       </RouterLink>
 
       <!-- Desktop Nav -->
